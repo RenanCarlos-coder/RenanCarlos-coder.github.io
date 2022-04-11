@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+  color: #141414;
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+@media (max-width: 850px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+  }
+}
