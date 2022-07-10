@@ -6,7 +6,10 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
-
+.experiencia a {
+  text-decoration: none;
+  color: inherit;
+}
 .experiencia .subtitulo {
   color: #cccccc;
 }
@@ -35,6 +38,17 @@
   border-radius: 4px;
   position: relative;
   gap: 10px 20px;
+}
+
+.empresa:hover{
+  cursor: pointer;
+  background-color: #555555;
+  transition: 0.3s;
+}
+
+.empresa:hover .empresa-texto,
+.empresa:hover .empresa-titulo {
+  color: white;
 }
 
 .empresa::before {
